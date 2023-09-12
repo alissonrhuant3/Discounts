@@ -1,0 +1,77 @@
+
+header {
+  width: 98%;
+  height: 100px;
+  margin: 0 auto;
+  /* background-color: #004d77b2; */
+}
+header h1 {
+  color: #ffff;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 100px;
+}
+#DivConteudo {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#principal {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.178);
+  margin-bottom: 3%;
+  background-color: #181a217a;
+}
+#secaoinserir {
+  width: 700px;
+  display: flex;
+}
+
+.formPai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.formT {
+  width: 600px;
+}
+input {
+  text-align: center;
+  font-size: 1rem !important;
+}
+
+input#file {
+  color: white;	
+}
+
+label {
+  font-size: 1.7rem !important;
+}
+@media screen and (max-width:730px) {
+  #secaoinserir {
+    width: 600px;
+  }
+  .formT {
+    width: 500px;
+  }
+}
+@media screen and (max-width:635px) {
+  #secaoinserir {
+    width: 500px;
+  }
+  .formT {
+    width: 400px;
+  }
+}
+#BotaoEnviar {
+  margin-bottom: 2rem;
+}
+
